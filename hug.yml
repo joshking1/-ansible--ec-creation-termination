@@ -6,7 +6,7 @@
   - name: Launching the EC2 instance
     ec2:
       instance_type: t2.micro
-      key_name: op
+      key_name: dev
       image: ami-002068ed284fb165b
       region: us-east-2
       group: default
