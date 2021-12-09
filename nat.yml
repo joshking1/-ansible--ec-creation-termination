@@ -1,4 +1,4 @@
-# Launch instances, runs some tasks
+# Launch instances, runs some tasks, and
 # and then terminate them
 ---
 - hosts: localhost
