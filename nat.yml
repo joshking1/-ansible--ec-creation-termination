@@ -2,7 +2,7 @@
 # and then terminate them
 ---
 - hosts: localhost
-  connection: local
+  delegate_to: local
   tasks:
     - name: Terminate Instances
       ec2_instance_facts:
