@@ -1,8 +1,7 @@
-# Launch instances, runs some tasks, and
-# and then terminate them
+
 ---
 - hosts: localhost
-  delegate_to: local
+  connection: local
   tasks:
     - name: Terminate Instances
       ec2_instance_facts:
